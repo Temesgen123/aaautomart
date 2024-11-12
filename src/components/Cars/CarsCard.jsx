@@ -49,7 +49,7 @@ const CarsCard = ({
            md:px-4 py-2 rounded-md hover:bg-primary transition duration-200 ease-linear
             font-semibold"
           onClick={() => {
-            navigate('/cardetails', {
+            navigate('/aaautomart/cardetails', {
               state: {
                 id,
                 image,

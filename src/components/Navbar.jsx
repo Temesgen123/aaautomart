@@ -20,38 +20,38 @@ const Navbar = () => {
             className="carIcon"
             style={{ color: 'silver', fontSize: '40px' }}
           />
-          <Link to="/" className="font-bold text-2xl">
+          <Link to="/aaautomart" className="font-bold text-2xl">
             AAAutoMart
           </Link>
         </div>
         <div></div>
         <div className="hidden md:flex items-center font-medium text-xl gap-8 ">
           <Link
-            to="/"
+            to="/aaautomart"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Home
           </Link>
           <Link
-            to="/about"
+            to="/aaautomart/about"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             About
           </Link>
           <Link
-            to="/cars"
+            to="/aaautomart/cars"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Cars
           </Link>
           <Link
-            to="/services"
+            to="/aaautomart/services"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Services
           </Link>
           <Link
-            to="/contactus"
+            to="/aaautomart/contactus"
             className="hidden lg:flex border-2 border-[#ccd8ec] text-lg px-4 rounded-md  hover:scale-90 hover:text-[c9c9e6] transition duration-200 ease-linear"
           >
             Contact
@@ -82,15 +82,15 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          to="/about"
+          to="/aaautomart/about"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           About Us
         </Link>
-        <Link to="/cars">Cars</Link>
-        <Link to="/services">Services</Link>
+        <Link to="/aaautomart/cars">Cars</Link>
+        <Link to="/aaautomart/services">Services</Link>
         <Link
-          to="/contactus"
+          to="/aaautomart/contactus"
           className="border-2 w-full max-w-[250px] border-white py-1 px-4 rounded-md mx-auto"
         >
           Contact

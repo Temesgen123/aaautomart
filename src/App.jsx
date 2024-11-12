@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/aaautomart/cars" element={<Cars />} />
           <Route path="/aaautomart/services" element={<Services />} />
           <Route path="/aaautomart/contactus" element={<Contact />} />
-          <Route path="/aaautomart/search" element={<SearchPage />} />
+          <Route path="/aaautomart/search/" element={<SearchPage />} />
           <Route path="/aaautomart/cardetails" element={<CarsDetails />} />
         </Routes>
       </BrowserRouter>
