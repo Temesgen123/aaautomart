@@ -12,8 +12,8 @@ export default function SearchBox() {
       query
         ? navigate(
             query
-              ? { pathname: '/search', search: `query=${query}` }
-              : '/search'
+              ? { pathname: 'aaautomart/search', search: `query=${query}` }
+              : 'aaautomart/search'
           )
         : alert('No search value entered.');
     }
