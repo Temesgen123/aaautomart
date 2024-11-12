@@ -6,7 +6,6 @@ import Services from './pages/Services';
 import Cars from './pages/Cars';
 import Contact from './pages/Contact';
 import SearchPage from './pages/SearchPage';
-import CarsDetails from './components/Cars/CarsDetails';
 
 const App = () => {
   return (
