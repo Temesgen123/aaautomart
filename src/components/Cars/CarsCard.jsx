@@ -25,11 +25,7 @@ const CarsCard = ({
       key={id}
       className="border-2 border-secondary h-full bg-slate-200 text-black rounded-xl mb-2 cursor-pointer hover:scale-95 transition duration-200 ease-linear max-w-sm sm:max-w-md md:max-w-lg"
     >
-      <img
-        src={`../../${image[0]}`}
-        alt="carimage"
-        className="rounded-t-xl max-w-full"
-      />
+      <img src={image[0]} alt="carimage" className="rounded-t-xl max-w-full" />
       <h1 className="font-bold text-sm md:text-xl text-center md:pl-5 text-primary mb-1">
         {name}
       </h1>
