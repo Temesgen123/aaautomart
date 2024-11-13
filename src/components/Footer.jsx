@@ -74,7 +74,7 @@ const Footer = () => {
               Car
             </Link>
             <Link
-              to="/services"
+              to="/aaautomart/services"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Services
