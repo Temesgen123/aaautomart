@@ -1,13 +1,14 @@
+import React from 'react';
+
+import image0001x1 from './assets/images/car1000x1000x0001.png';
+import image0001x2 from './assets/images/cint0001.png';
+import image0001x3 from './assets/images/cint0002.png';
+import image0001x4 from './assets/images/cint0003.png';
+import image0001x5 from './assets/images/cint0004.png';
 const CarsData = [
   {
     id: 0,
-    image: [
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/car1000x1000x0001.png',
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/cint0001.png',
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/cint0002.png',
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/cint0003.png',
-      'https://Temesgen123.github.io/aaautomart//src/assets/images/cint0004.png',
-    ],
+    image: [image0001x1, image0001x2, image0001x3, image0001x4, image0001x5],
     name: 'Mercedes',
     price: '$75,000',
     make: 'Toyota',
