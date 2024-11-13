@@ -20,14 +20,14 @@ const Navbar = () => {
             className="carIcon"
             style={{ color: 'silver', fontSize: '40px' }}
           />
-          <Link to="/aaautomart" className="font-bold text-2xl">
+          <Link to="/aaautomart/" className="font-bold text-2xl">
             AAAutoMart
           </Link>
         </div>
         <div></div>
         <div className="hidden md:flex items-center font-medium text-xl gap-8 ">
           <Link
-            to="/aaautomart"
+            to="/aaautomart/"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Home
@@ -76,7 +76,7 @@ const Navbar = () => {
          text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-3/4 h-fit rounded-br-xl transition-transform duration-500 `}
       >
         <Link
-          to="/"
+          to="/aaautomart/"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           Home

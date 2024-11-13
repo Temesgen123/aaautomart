@@ -56,22 +56,22 @@ const Footer = () => {
           </h1>
           <div className="flex flex-col gap-2 font-medium">
             <Link
-              to="/"
+              to="/aaautomart/"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Home
             </Link>
             <Link
-              to="/about"
+              to="/aaautomart//about"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               About Us
             </Link>
             <Link
-              to="/cars"
+              to="/aaautomart/cars"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
-              Cars
+              Car
             </Link>
             <Link
               to="/services"
@@ -93,7 +93,7 @@ const Footer = () => {
                   e.preventDefault();
                   const brandName = 'toyota';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaautomart/search',
                     search: `query=${brandName}`,
                   });
                 }
@@ -108,7 +108,7 @@ const Footer = () => {
                   e.preventDefault();
                   const brandName = 'honda';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaautomart/search',
                     search: `query=${brandName}`,
                   });
                 }
@@ -123,7 +123,7 @@ const Footer = () => {
                   e.preventDefault();
                   const brandName = 'hyundai';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaautomart/search',
                     search: `query=${brandName}`,
                   });
                 }
@@ -138,7 +138,7 @@ const Footer = () => {
                   e.preventDefault();
                   const brandName = 'nissan';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaautomart/search',
                     search: `query=${brandName}`,
                   });
                 }
