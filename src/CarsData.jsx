@@ -1,4 +1,3 @@
-src / assets / images / car1000x1000x0001.png;
 const CarsData = [
   {
     id: 0,
