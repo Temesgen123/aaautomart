@@ -62,7 +62,7 @@ const Footer = () => {
               Home
             </Link>
             <Link
-              to="/aaautomart//about"
+              to="/aaautomart/about"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               About Us
