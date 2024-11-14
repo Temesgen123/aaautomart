@@ -2,11 +2,11 @@ const CarsData = [
   {
     id: 0,
     image: [
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/car1000x1000x0001.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0001.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0002.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0003.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0004.png',
+      '/aautomart/src/assets/images/car1000x1000x0001.png',
+      '/aautomart/src/assets/images/cint0001.png',
+      '/aautomart/src/assets/images/cint0002.png',
+      '/aautomart/src/assets/images/cint0003.png',
+      '/aautomart/src/assets/images/cint0004.png',
     ],
     name: 'Mercedes',
     price: '$75,000',
@@ -30,11 +30,11 @@ const CarsData = [
   {
     id: 1,
     image: [
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/car1000x1000x0002.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0001.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0002.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0003.png',
-      'https://github.com/Temesgen123/aaautomart/blob/main/src/assets/images/cint0004.png',
+      '/src/assets/images/car1000x1000x0002.png',
+      '/src/assets/images/cint0001.png',
+      '/src/assets/images/cint0002.png',
+      '/src/assets/images/cint0003.png',
+      '/src/assets/images/cint0004.png',
     ],
 
     name: 'Cadillac Escalade',
@@ -59,11 +59,11 @@ const CarsData = [
   {
     id: 2,
     image: [
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/car1000x1000x0003.png',
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/cint0001.png',
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/cint0002.png',
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/cint0003.png',
-      'https://Temesgen123.github.io/aaautomart/src/assets/images/cint0004.png',
+      '/src/assets/images/car1000x1000x0003.png',
+      '/src/assets/images/cint0001.png',
+      '/src/assets/images/cint0002.png',
+      '/src/assets/images/cint0003.png',
+      '/src/assets/images/cint0004.png',
     ],
     name: 'Toyota RAV4',
     price: '$35,000',
