@@ -26,7 +26,7 @@ const OurCars = () => {
               id={item.id}
               name={item.name}
               price={item.price}
-              image={item.image}
+              image={[...item.image]}
               make={item.make}
               model={item.model}
               year={item.year}
