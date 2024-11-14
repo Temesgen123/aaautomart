@@ -2,11 +2,11 @@ const CarsData = [
   {
     id: 0,
     image: [
-      '/aautomart/src/assets/images/car1000x1000x0001.png',
-      '/aautomart/src/assets/images/cint0001.png',
-      '/aautomart/src/assets/images/cint0002.png',
-      '/aautomart/src/assets/images/cint0003.png',
-      '/aautomart/src/assets/images/cint0004.png',
+      'aautomart/src/assets/images/car1000x1000x0001.png',
+      'aautomart/src/assets/images/cint0001.png',
+      'aautomart/src/assets/images/cint0002.png',
+      'aautomart/src/assets/images/cint0003.png',
+      'aautomart/src/assets/images/cint0004.png',
     ],
     name: 'Mercedes',
     price: '$75,000',
@@ -30,11 +30,11 @@ const CarsData = [
   {
     id: 1,
     image: [
-      '/src/assets/images/car1000x1000x0002.png',
-      '/src/assets/images/cint0001.png',
-      '/src/assets/images/cint0002.png',
-      '/src/assets/images/cint0003.png',
-      '/src/assets/images/cint0004.png',
+      '/aautomart/src/assets/images/car1000x1000x0001.png',
+      '/aautomart/src/assets/images/cint0001.png',
+      '/aautomart/src/assets/images/cint0002.png',
+      '/aautomart/src/assets/images/cint0003.png',
+      '/aautomart/src/assets/images/cint0004.png',
     ],
 
     name: 'Cadillac Escalade',
